@@ -78,31 +78,31 @@ const ProjectCard = ({
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "React Fake Store",
       description:
-        "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
-      image: "/placeholder.svg",
-      technologies: ["Next.js", "TypeScript", "Stripe", "Prisma", "PostgreSQL"],
-      liveUrl: "https://ecommerce-demo.com",
-      githubUrl: "https://github.com/username/ecommerce",
+        "Built a responsive e-commerce web application using React and Material UI, allowing users to browse and view products from the Fake Store API by category.",
+      image: "/images/fake_store_app.png",
+      technologies: ["React", "Material UI", "Fake Store API", "CSS"],
+      liveUrl: "https://react-fake-store-eight.vercel.app/",
+      githubUrl: "https://github.com/VintaviousG/react-fake-store",
     },
     {
-      title: "AI Task Manager",
+      title: "Book Management App",
       description:
-        "Smart task management app that uses AI to categorize, prioritize, and suggest optimal task scheduling.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Python", "TensorFlow", "FastAPI", "MongoDB"],
-      liveUrl: "https://ai-taskmanager.com",
-      githubUrl: "https://github.com/username/ai-taskmanager",
+        "Developed a dynamic web application using Node.js, Express, and MongoDB that allows administrators to perform CRUD operations on a database of books",
+      image: "/images/BookManager.png",
+      technologies: ["HTML/CSS", "Bootstrap", "JavaScript", "Express", "NodeJS", "EJS", "MongoDB"],
+      liveUrl: "",
+      githubUrl: "https://github.com/VintaviousG/BookKeeper",
     },
     {
-      title: "Real-time Chat Application",
+      title: "News App",
       description:
         "Feature-rich chat application with real-time messaging, file sharing, and video calls.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Socket.io", "WebRTC", "Node.js", "Redis"],
-      liveUrl: "https://chatapp-demo.com",
-      githubUrl: "https://github.com/username/chat-app",
+      image: "/images/NewsApp_1.png",
+      technologies: ["HTML/CSS", "JavaScript", "NodeJS", "Express", "NewsAPI"],
+      liveUrl: "https://news-app-project.onrender.com/news",
+      githubUrl: "https://github.com/VintaviousG/News-Web-App",
     },
     {
       title: "AI Image Generator",

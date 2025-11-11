@@ -54,28 +54,20 @@ const ExperienceItem = ({
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      period: "2021 - Present",
+      title: "Freelance Web Developer",
+      company: "Albany, GA (Remote)",
+      period: "September 2025 – Present",
       description:
-        "Led the development of enterprise-scale web applications, mentored junior developers, and implemented best practices for code quality and performance optimization.",
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "MongoDB"],
+        "Design and develop web applications for clients using modern technologies. Collaborate with clients to plan site features, structure content, and deploy live updates.",
+      technologies: ["Next.js", "Supabase", "Tailwind CSS", "JavaScript", "TypeScript"],
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Innovations Inc",
-      period: "2019 - 2021",
+      title: "Junior Instructor Intern",
+      company: "Albany State University",
+      period: "June 2024 – July 2024",
       description:
-        "Developed and maintained multiple client projects, implemented responsive designs, and integrated third-party APIs for enhanced functionality.",
-      technologies: ["React", "Express.js", "PostgreSQL", "Docker", "Redis"],
-    },
-    {
-      title: "Frontend Developer",
-      company: "WebTech Studios",
-      period: "2018 - 2019",
-      description:
-        "Created responsive and interactive user interfaces, collaborated with designers, and optimized application performance.",
-      technologies: ["React", "JavaScript", "SASS", "Webpack", "Jest"],
+        "Supported instruction in embedded systems (Arduino, LINGO) and co-led Scratch programming workshops for K–12 students, enhancing problem-solving and coding skills through interactive projects.",
+      technologies: ["Arduino", "LINGO", "Scratch", "Python"],
     },
   ];
 
@@ -90,7 +82,7 @@ const Experience = () => {
             Professional Journey
           </h2>
           <p className="text-muted-foreground mt-2 sm:mt-4 text-lg">
-            A timeline of my professional growth and key achievements
+            A look at my hands-on experience, projects, and growth as a developer
           </p>
         </div>
 
@@ -105,3 +97,4 @@ const Experience = () => {
 };
 
 export default Experience;
+

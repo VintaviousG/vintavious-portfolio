@@ -5,6 +5,7 @@ import { Download } from "lucide-react";
 import Image from "next/image";
 import { HTMLAttributes } from "react";
 import { GithubLogo } from "./icons";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -13,34 +14,41 @@ const About = () => {
         <div className="flex flex-col md:flex-row-reverse gap-12">
           <ProfileImage className="hidden md:block" />
 
-          {/* Content */}
-          <div className="flex-1 md:text-left">
-            <Badge variant="secondary" className="mb-4">
-              About Me
-            </Badge>
-            <ProfileImage className="mt-3 mb-8 block md:hidden" />
-            <h2 className="text-4xl font-bold mb-4 tracking-tight">
-              Passionate about creating impactful web experiences
-            </h2>
-            <p className="text-muted-foreground mb-6 text-justify">
-              With over 5 years of experience in full-stack development, I
-              specialize in building scalable web applications using modern
-              technologies. My expertise includes React, Node.js, and cloud
-              architecture. I&apos;m passionate about creating elegant solutions
-              to complex problems and sharing knowledge with the developer
-              community.
-            </p>
+{/* Content */}
+<div className="flex-1 md:text-left">
+  <Badge variant="secondary" className="mb-4">
+    About Me
+  </Badge>
+  <ProfileImage className="mt-3 mb-8 block md:hidden" />
+  <h2 className="text-4xl font-bold mb-4 tracking-tight">
+    Passionate about learning, building, and creating web experiences
+  </h2>
+  <p className="text-muted-foreground mb-6 text-justify">
+    I’m Vintavious Gilbert — a dedicated and curious Full Stack Web Developer 
+    with a B.S. in Computer Science from Albany State University. 
+    I’m passionate about turning ideas into functional, user-friendly applications 
+    and continuously improving my skills in modern web technologies. 
+    I enjoy working with tools like React, Next.js, and TypeScript, and I’m expanding 
+    my knowledge in backend and database development. 
+    I’m currently seeking an entry-level opportunity where I can grow, contribute, 
+    and build meaningful digital experiences.
+  </p>
             <div className="flex flex-wrap gap-4 justify-start">
-              <Button className="rounded-full">
-                <GithubLogo />
-                View Github
-              </Button>
-              <Button variant="outline" className="rounded-full">
-                <Download />
-                Download CV
-              </Button>
-            </div>
-          </div>
+              
+              <Link href="https://github.com/VintaviousG" >
+                  <Button className="rounded-full">
+      <GithubLogo />
+      View Github
+    </Button>
+              </Link>
+    <Button variant="outline" className="rounded-full">
+      <Download />
+      Download CV
+    </Button>
+  </div>
+</div>
+
+
         </div>
       </div>
     </section>
