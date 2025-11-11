@@ -1,6 +1,6 @@
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
-import { BlueSkyLogo, DribbleLogo, GithubLogo, XLogo } from "./icons";
+import { LinkedInLogo,  GithubLogo} from "./icons";
 
 const footerLinks = [
   {
@@ -65,15 +65,8 @@ const Footer = () => {
             <Link href="#" target="_blank">
               <GithubLogo className="h-5 w-5" />
             </Link>
-            <Link href="#" target="_blank">
-              <XLogo className="h-5 w-5" />
-            </Link>
-            <Link href="#" target="_blank">
-              <BlueSkyLogo className="h-5 w-5" />
-            </Link>
-            <Link href="#" target="_blank">
-              <DribbleLogo className="h-5 w-5" />
-            </Link>
+         
+           
           </div>
         </div>
       </div>
