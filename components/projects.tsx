@@ -104,15 +104,7 @@ const Projects = () => {
       liveUrl: "https://news-app-project.onrender.com/news",
       githubUrl: "https://github.com/VintaviousG/News-Web-App",
     },
-    {
-      title: "AI Image Generator",
-      description:
-        "An AI image generator that uses a model to generate images based on a prompt.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Next.js", "Tailwind CSS", "Shadcn UI"],
-      liveUrl: "https://ai-image-generator.com",
-      githubUrl: "https://github.com/username/ai-image-generator",
-    },
+ 
   ];
 
   return (
