@@ -61,7 +61,7 @@ const ProfileImage = ({
 }: HTMLAttributes<HTMLDivElement>) => (
   <div className={cn("mt-10 w-48 h-48 md:w-64 md:h-64", className)} {...props}>
     <div className="relative w-full h-full rounded-2xl overflow-hidden bg-accent">
-      <Image src="/placeholder.svg" alt="" className="object-cover" fill />
+      <Image src="/images/portfolio_photo.jpg" alt="" className="object-cover" fill />
     </div>
   </div>
 );
