@@ -2,21 +2,6 @@ import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 import {GithubLogo} from "./icons";
 
-const footerLinks = [
-  {
-    title: "About",
-    href: "#about",
-  },
-  {
-    title: "Experience",
-    href: "#experience",
-  },
-  {
-    title: "Projects",
-    href: "#projects",
-  },
-];
-
 const Footer = () => {
   return (
     <footer className="mt-20">
