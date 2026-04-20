@@ -78,6 +78,24 @@ const ProjectCard = ({
 const Projects = () => {
   const projects = [
     {
+      title: "Tutor Management System",
+      description:
+        "Built a full-stack Tutor Management System using NextJS, and Supabase, implementing RESTful APIs to manage students, tutors, and tutoring sessions",
+      image: "/images/tutor-management-system.png",
+      technologies: ["NextJS", "TypeScript", "Supabase", "Shadcn UI"],
+      liveUrl: "",
+      githubUrl: "https://github.com/VintaviousG/tutor-manage-system"
+  },
+   {
+      title: "New Covenament Church Website",
+      description:
+        "Designed and developed a modern church website to support online services, announcements, and prayer requests using Next.js, TypeScript, and Tailwind CSS. Built with a focus on simplicity, accessibility, and easy ongoing maintenance.",
+      image: "/images/new-church-website.png",
+      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+      liveUrl: "https://new-covenant-holliness.vercel.app/",
+      githubUrl: "https://github.com/VintaviousG/new-covenant-holliness",
+    },
+    {
       title: "React Fake Store",
       description:
         "Built a responsive e-commerce web application using React and Material UI, allowing users to browse and view products from the Fake Store API by category.",
@@ -104,15 +122,7 @@ const Projects = () => {
       liveUrl: "https://news-app-project.onrender.com/news",
       githubUrl: "https://github.com/VintaviousG/News-Web-App",
     },
-    {
-      title: "New Covenament Church Website",
-      description:
-        "Designed and developed a modern church website to support online services, announcements, and prayer requests using Next.js, TypeScript, and Tailwind CSS. Built with a focus on simplicity, accessibility, and easy ongoing maintenance.",
-      image: "/images/new-church-website.png",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
-      liveUrl: "https://new-covenant-holliness.vercel.app/",
-      githubUrl: "https://github.com/VintaviousG/new-covenant-holliness",
-    },
+   
     
  
   ];
