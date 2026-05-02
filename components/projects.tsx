@@ -83,7 +83,7 @@ const Projects = () => {
         "Built a full-stack Tutor Management System using NextJS, and Supabase, implementing RESTful APIs to manage students, tutors, and tutoring sessions",
       image: "/images/tutor-management-system.png",
       technologies: ["NextJS", "TypeScript", "Supabase", "Shadcn UI"],
-      liveUrl: "",
+      liveUrl: "https://tutor-manage-system.vercel.app/",
       githubUrl: "https://github.com/VintaviousG/tutor-manage-system"
   },
    {
